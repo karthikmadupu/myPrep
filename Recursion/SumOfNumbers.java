@@ -23,7 +23,7 @@ class SumNumbersRecursive {
     return numbers.get(numbers.size()-1)+sumNumbersRecursive(numbers.subList(0,numbers.size()-1));
   }
 
-  public static void run() {
+  public static void main(String[] args) {
     // this function behaves as `main()` for the 'run' command
     // you may sandbox in this function , but should not remove it
   }

@@ -33,7 +33,7 @@ class Uncompress {
     return result;
   }
 
-  public static void run() {
+  public static void main(String[] args) {
     // this function behaves as `main()` for the 'run' command
     // you may sandbox in this function, but should not remove it
   }

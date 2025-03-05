@@ -20,7 +20,7 @@ class SumOfLengths {
     return strings.get(0).length()+sumOfLengths(strings.subList(1,strings.size()));
   }
 
-  public static void run() {
+  public static void main(String[] args) {
     // this function behaves as `main()` for the 'run' command
     // you may sandbox in this function , but should not remove it
   }
