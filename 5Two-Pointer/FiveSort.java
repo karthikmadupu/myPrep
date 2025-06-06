@@ -40,6 +40,7 @@ class FiveSort {
         i++;
       }
       else{
+        //Collections.swap(array, i, j);
         int temp = array.get(i);
         array.set(i,array.get(j));
         array.set(j,temp);

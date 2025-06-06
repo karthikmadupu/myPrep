@@ -5,7 +5,10 @@
 for example, '2c' or '3a'.
 The method should return an uncompressed version of the string where each 'char' of a group is repeated 'number' times consecutively. You may assume that the input string is well-formed according to the previously mentioned pattern.
 
+
 Source.uncompress("2c3a1t"); // -> "ccaaat"
+Source.uncompress("4s2b"); // -> "ssssbb"
+Source.uncompress("2p1o5p"); // -> "ppoppppp"
 Source.uncompress("3n12e2z"); // -> "nnneeeeeeeeeeeezz"
 Source.uncompress("127y"); // ->"yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
 

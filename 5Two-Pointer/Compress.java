@@ -7,11 +7,14 @@ Write a method, compress, that takes in a string as an argument. The method shou
 You can assume that the input only contains alphabetic characters.
 
 
+
 Source.compress("ccaaatsss"); // -> "2c3at3s"
+Source.compress("ssssbbz"); // -> "4s2bz"
+Source.compress("ppoppppp"); // -> "2po5p"
 Source.compress("nnneeeeeeeeeeeezz"); // -> "3n12e2z"
+
 Source.compress("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"); 
 // -> "127y"
-Source.compress("ppoppppp"); // -> "2po5p"
 */
 
 class Compress {
